@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<style>
+    *{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .heading
+    { 
+      background-color: rgb(0, 0, 0);
+      font-size:30px;  
+      height: 100px;
+      text-align: center;
+      color: aliceblue;
+      width: 100%;
+    }
+    .heading p
+    {
+        padding: 20px;
+        font-size: 20px;
+    }
+    nav
+    {
+        width: 100%;
+    }
+    nav ul
+    {
+        text-align: center;
+        background-color:rgb(84, 84, 84)
+        
+    }
+    .name
+    {
+        transition: font-color 0.5s;
+        
+    }
+    .name:hover
+    {
+        color: rgb(126, 126, 126);
+        
+    }
+    nav ul li
+    {
+        padding: 20px;
+       text-decoration: none;
+       list-style: none;
+       display: inline;
+       font-weight: bold;
+    }
+    nav ul li a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #ededed;
+}
+    .container
+    {
+        background-color: black;
+        width:100%;
+        height: 100%;
+        padding-top:10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .about
+    {
+        background-color: rgb(252, 255, 254);
+        padding: 50px;
+        border-radius: 10px;
+        height: 15vh;
+        margin: 10px;
+    }
+    .project
+    {
+        background-color: rgb(252, 255, 254);
+        padding: 50px;
+        border-radius: 10px;
+        margin: 10px;
+        height: 15vh;
+    }
+    .contact
+    {
+        background-color: rgb(252, 255, 254);
+        padding: 50px;
+        border-radius: 10px;
+        height: 15vh;
+        margin: 10px;
+    }
+    footer p
+    {
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .about p
+    {
+        padding-top: 20px;
+    }
+    a
+    {
+        text-decoration: none;
+    
+    }
+</style>
+<body>
+    <header class="heading">
+        <span class="name">Your Name</span>
+            <p>Short description about you</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <div class="about">
+               <h2>About Me</h2>
+              <p>Write a brief introduction about yourself</p>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="project">
+              <h2>Projects</h2>
+              <p>Write a brief introduction about yourself</p>
+           </div>
+        </section>
+        <section id="contact">
+             <div class="contact">
+               <h2>Contact Me</h2>
+               <p>Write a brief introduction about yourself</p>
+             </div>
+       </section>
+        <footer>
+            <p>© 2025 Your Name. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
