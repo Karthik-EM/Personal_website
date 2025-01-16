@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>Portfolio</title>
 </head>
 <style>
     *{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin: 0;
         padding: 0;
+        
     }
     .heading
     { 
-      background-color: #d5d5d5;
+      background-color: #3498db; 
       font-size:30px;  
-      height: 100px;
+      height: 100px; 
       text-align: center;
-      color: rgb(0, 0, 0);
+      color: white; 
       width: 100%;
     }
     .heading p
     {
         padding: 20px;
-        font-size: 20px;
+        font-size: 18px; 
     }
     nav
     {
@@ -32,7 +33,7 @@
     nav ul
     {
         text-align: center;
-        background-color:hsl(0, 0%, 51%);
+        background-color: #2c3e50; 
 
         
     }
@@ -43,49 +44,57 @@
     }
     .name:hover
     {
-        color: rgb(126, 126, 126);
+        color: #000000;
         
     }
     nav ul li
     {
-        padding: 20px;
+        padding: 20px; 
        text-decoration: none;
        list-style: none;
        display: inline;
        font-weight: bold;
     }
     nav ul li a {
-    color: rgb(0, 0, 0); 
+    color: white; 
     text-decoration: none; 
     transition: color 0.3s ease; 
 }
 
 nav ul li a:hover {
-    color: #d5d5d5;
+    color:  #3498db; 
 }
     .container
     {
-        background-color: rgb(255, 255, 255);
+        background-color: #ecf0f1; 
         width:100%;
-        height: 100%;
+        height: 100%; 
         padding-top:10px;
         display: flex;
         flex-direction: column;
     }
     
     .about, .project, .contact {
-        background-color: #d5d5d5; 
-        padding: 50px;
-        border-radius: 10px;
-        height: 15vh;
+        background-color: white; 
+        padding: 50px; 
+        border-radius: 8px;
         margin: 10px;
-        box-shadow: 0px 4px 6px rgba(0,0, 0, 0.1);
+        box-shadow: 0px 2px 4px rgba(0,0, 0, 0.1);
+        height: 15vh; 
+    }
+     .about h2,.project h2,.contact h2
+    {
+        margin-bottom: 20px;
+    }
+    footer
+    {
+        background-color: #2c3e50; 
+        padding: 20px 0;
     }
     footer p
     {
         color: white;
         text-align: center;
-        padding-top: 20px;
     }
     .about p
     {
@@ -118,17 +127,17 @@ nav ul li a:hover {
         <section id="projects">
             <div class="project">
               <h2>Projects</h2>
-              <p>Write a brief introduction about yourself</p>
+              <p>Write a brief introduction about your projects</p>
            </div>
         </section>
         <section id="contact">
              <div class="contact">
                <h2>Contact Me</h2>
-               <p>Write a brief introduction about yourself</p>
+               <p>Write how people can contact you</p>
              </div>
        </section>
         <footer>
-            <p>© 2025 Your Name. All rights reserved.</p>
+            <p>© 2024 Your Name. All rights reserved.</p>
         </footer>
     </div>
 </body>
