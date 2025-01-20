@@ -39,12 +39,14 @@
     }
     .name
     {
-        transition: color 0.3s ease; 
-        
+        transition: color  0.3s ease,transform  0.3s ease; 
+        display: inline-block;
+        margin-top: 30px;
     }
     .name:hover
     {
         color: #000000;
+        transform: scalex(4);
         
     }
     nav ul li
@@ -108,7 +110,7 @@ nav ul li a:hover {
 </style>
 <body>
     <header class="heading">
-        <span class="name">Your Name<p>Short description about you</p></span>
+        <span class="name">Your Name</span>
     </header>
     <nav>
         <ul>
